@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: rgba(7, 31, 25, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  width: 50vw;
+  position: relative;
+  height: 90vh;
+  border: 3px solid black;
+  border-radius: 20px;
+  background: rgba(7, 50, 40, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  transition: all .5s;
+}
+
+#before {
+  width: 100%;
+  padding: 20px;
+}
+
+#pE {
+  color: white;
+  font-size: 15pt;
+}
+
+#pV {
+  color: green;
+  font-size: 15pt;
+}
+
+#pD {
+  color: red;
+  font-size: 15pt;
+}
+
+.opt {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+
+}
+
+.opt:hover {
+  color: white;
+  transition: all .5s;
+}
+
+.opt:active {
+  color: blue;
+}
+
+#pResp {
+  font-size: 20pt;
+}
+
+h1 {
+  color: white;
+  margin: 20px;
+}
+
+#btnCss {
+  background: rgba(7, 31, 25, 255);
+  margin-top: 10px;
+  width: 12vw;
+  height: 6vh;
+  cursor: pointer;
+  border: 3px solid black;
+  border-radius: 15px;
+  font-size: 15pt;
+  color: white;
+}
+
+#btnCss:hover {
+  border: 3px solid white;
+  color: rgb(252, 236, 236);
+  transition: border .5s;
+}
+
+#btnCss:active {
+  border: 3px solid blue;
+  color: blue;
+  transition: all .5s;
+}
+
+#jog {
+  margin-top: 8px;
+  color: gray;
+}
+
+#btnEnt {
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  background: rgba(7, 31, 25, 255);
+  color: white;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+
+#btnEnt:hover {
+  border: 2px solid white;
+  transition: all .5s;
+}
+
+#btnEnt:active {
+  color: blue;
+  border: 2px solid blue;
+  transition: all .5s;
+}
+
+.after {
+  margin-top: 450px;
+  width: 50vw;
+  height: 70vh;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#nome {
+  color: gray;
+  font-size: 10pt;
+  margin: 20px;
+}
+
+#btnVolt {
+  background: rgba(7, 31, 25, 255);
+  cursor: pointer;
+  border: 2px solid black;
+  width: 70px;
+  height: 25px;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: white;
+}
+
+#btnVolt:hover {
+  border: 2px solid white;
+  transition: all .5s;
+}
+
+#btnVolt:active {
+  color: blue;
+  border: 2px solid blue;
+  transition: all .5s;
+}
+
+#right {
+  display: flex;
+  justify-content: right;
+}
+
+#login {
+  
+}
